@@ -36,9 +36,10 @@ body{
 }
 .main-header p{
     color: hsl(218, 22%, 67%);
-    width: 40%;
+    width: 50%;
     font-size: 20px;
     line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 /*End Of Heading Section*/
 .subscription{
@@ -105,7 +106,7 @@ body{
     margin-bottom: 2.5rem;
 }
 .why-us p{
-    width:35%;
+    width: 40%;
     line-height: 2;
     font-size: 22px;
 }
