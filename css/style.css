@@ -12,7 +12,7 @@ body{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.7fr 1fr 0.07fr;
+    grid-template-rows: 0.4fr 0.6fr 0.04fr;
     grid-template-areas: 
     'header header'
     'subsc  whyus '
@@ -31,11 +31,13 @@ body{
 }
 .main-header .sub-head{
     color: hsl(71, 73%, 54%);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 22px;
 }
 .main-header p{
     color: hsl(218, 22%, 67%);
-    width: 44%;
+    width: 40%;
+    font-size: 20px;
     line-height: 1.6;
 }
 /*End Of Heading Section*/
@@ -44,20 +46,22 @@ body{
     background-color:  hsl(179, 62%, 43%);
 }
 .subscription h3{
-    font-size: 22px;
+    font-size: 26px;
+    margin-top: 4rem;
 }
 .amount{
     padding-top: 25px;
-    font-size: 34px; 
+    font-size: 44px; 
     font-weight: bold;
 }
 .per-month{
-    margin-left: 75px;
-    transform: translateY(-30px);
+    margin-left: 90px;
+    transform: translateY(-35px);
     color: rgb(229, 239, 245,0.8);
+    font-size: 20px;
 }
 .subscription div{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 50px;
 }
 .price{
@@ -67,7 +71,7 @@ body{
 }
 .description{
     transform: translateY(-34px);
-    font-size: 19px;
+    font-size: 22px;
 }
 .btn{
     display: inline-block;
@@ -76,7 +80,7 @@ body{
     text-decoration: none;
     border-radius: 4px;
     padding: 5px;
-    width: 50%;
+    width: 40%;
     height: 50px;
     text-align: center;
     box-shadow: 0 5px 10px 3px rgb(0, 0, 0,0.18);
@@ -94,15 +98,16 @@ body{
 }
 .why-us div{
     margin-left:55px;
-    margin-top: 35px
+    margin-top: 4rem;
 }
 .why-us h3{
-    font-size: 22px;
-    margin-bottom: 20px
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 .why-us p{
-    width:50%;
+    width:35%;
     line-height: 2;
+    font-size: 20px;
 }
 
 /*End Of Why Us Section*/
@@ -135,15 +140,19 @@ footer{
     }
 
 
+    .subscription h3{
+    font-size: 23px;
+    }
     .subscription div{
         margin: 2rem 2rem 1rem 1.5rem;
     }
     .price{
-        right: 25px;
+        right: 22px;
     }
     .description{
         color: hsl(204, 43%, 93%);
         transform: translateY(-3rem);
+        font-size: 19px;
     }
     .btn{
         width: 100%;
@@ -155,7 +164,7 @@ footer{
         margin: 2rem 2rem 1rem 1.5rem;
     }
     .why-us p{
-        width: 80%;
+        width: 90%;
         color: hsl(204, 43%, 93%);
 
     }
